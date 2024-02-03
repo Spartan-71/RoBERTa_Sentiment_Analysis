@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Futura&display=swap");
+.pa {
+  background-color: #f2f2f2;
+  margin: 2rem;
+  padding: 4rem;
+  border-radius: 3rem;
+}
+
+.pa-head {
+  font-family: "Futura", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.pa-formx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.pa-formx-text {
+  font-size: 1.2rem;
+  display: block;
+  font-family: "Futura", sans-serif;
+  width: 50vh;
+  font-weight: lighter;
+  padding-left: 15px;
+}
+
+.pa-formx-input {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 5vh;
+  width: 45vh;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 0rem 1rem;
+}
+
+.pa-formx-submit {
+  font-family: "Futura", sans-serif;
+  height: 5vh;
+  width: 50vh;
+  border: none;
+  background-color: #286efa;
+  color: white;
+  font-size: 120%;
+  border-radius: 10px;
+}
