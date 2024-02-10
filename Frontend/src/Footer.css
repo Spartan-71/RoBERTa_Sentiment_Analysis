@@ -1,0 +1,39 @@
+/* Footer container */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6d6d6d;
+  padding: 8px;
+  color: #fff;
+}
+
+/* Logo on the left side */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Futura", sans-serif;
+}
+
+/* GitHub icons on the right side */
+.github-icons {
+  display: flex;
+  align-items: center;
+}
+
+.github-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .github-icons {
+    margin-top: 10px;
+  }
+}

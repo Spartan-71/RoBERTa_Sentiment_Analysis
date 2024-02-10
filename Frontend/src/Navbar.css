@@ -1,0 +1,79 @@
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.nav-left-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.nav-left-brandname {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.nav-right-but {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-right-but:hover {
+  background-color: #0264cd;
+}
+
+.nav-right-gen {
+  color: #b3b3b3;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-left {
+    margin-left: 20px;
+  }
+
+  .nav-left-brandname {
+    font-size: 10px;
+  }
+
+  .nav-right-but {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

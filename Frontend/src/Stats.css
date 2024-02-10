@@ -1,0 +1,121 @@
+.st {
+  margin-bottom: 2rem;
+}
+
+.st-f {
+  margin-left: 4rem;
+  font-family: "Futura", sans-serif;
+  font-size: 3rem;
+  background: #121fcf;
+  background: linear-gradient(to right, #121fcf 0%, #cc33ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.st-fir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.st-fir-f {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 8rem;
+  width: 75vw;
+  height: 35vh;
+  letter-spacing: -2;
+  background-color: #b4cdce;
+}
+
+.st-fir-f-span {
+  font-size: small;
+  color: #4f4f4f;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.st-fir-s {
+  background-color: #99cd8c;
+  width: 15vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
+
+.st-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 35vh;
+}
+
+.st-sec-f {
+  display: flex;
+  flex-direction: column;
+
+  width: 20vw;
+  height: 35vh;
+  background-color: #ff0000;
+}
+
+.st-sec-f-head {
+  margin: 10px;
+  margin-top: 5rem;
+  color: #b4cdce;
+  font-size: small;
+  font-style: italic;
+}
+
+.st-sec-f-count {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 6rem;
+  font-family: "Futura", sans-serif;
+  color: #cecece;
+}
+
+.st-sec-s {
+  width: 75vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eac6b0;
+}
+
+@media screen and (max-width: 768px) {
+  .st-fir,
+  .st-sec {
+    flex-direction: column;
+  }
+  .st-fir-f,
+  .st-fir-s,
+  .st-sec-f,
+  .st-sec-s {
+    width: 100vw;
+    height: 40vh;
+  }
+  .st-fir-f {
+    font-size: 5rem;
+  }
+  .st-sec-f-head {
+    margin-top: 1rem;
+  }
+  .st-f {
+    margin-left: 10px;
+  }
+  .st-fir-f-span {
+    font-size: x-small;
+  }
+}
